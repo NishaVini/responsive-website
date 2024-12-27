@@ -1,0 +1,64 @@
+
+/* Button positioning for smaller screens */
+  @media (max-width: 575px) {
+  
+    .btn-outer {
+             position: fixed;
+             bottom: 0px;
+             left: 0;
+             right: 0;
+             gap: 8px;
+             padding:10px;
+             background-color: white;
+            }
+             
+    .btn-outer button {
+            width: 45%; /* Adjust button width for smaller screens */
+            }
+
+   .bannerContent h1{
+             font-size:30px;
+             font-weight: 700px;
+             }
+
+   .bannerContent h1 br{
+       display:none;
+     }
+
+     
+ .bannerContent p ,li{
+    font-size:22px;
+   
+    }
+
+    .bannerContentBtn{
+      flex-direction: column;
+    }
+    
+    .bannerContentBtn button{
+      width:100%;
+      padding:15px;
+    }
+
+    
+ .bannerForm{
+  font-size: 20px;
+ }
+.counter-section{
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+}
+
+/* Container width adjustment for larger screens */
+@media (min-width: 1400px) {
+   .container,
+   .container-md,
+   .container-sm,
+   .container-xxl {
+    max-width: 1170px;
+   }
+}
+
+
